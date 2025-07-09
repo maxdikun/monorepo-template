@@ -1,0 +1,22 @@
+version: "3"
+
+includes:
+  frontend:
+    dir: ./apps/frontend
+    taskfile: ./apps/frontend/Taskfile.yml
+
+  docs:
+    dir: ./docs
+    taskfile: ./docs/Taskfile.yml
+
+  infra:
+    dir: ./infra
+    taskfile: ./infra/Taskfile.yml
+
+  libfoo:
+    dir: ./lib/libfoo
+    taskfile: ./lib/libfoo/Taskfile.yml
+
+  backend:
+    dir: ./services/backend
+    taskfile: ./services/backend/Taskfile.yml
